@@ -1,0 +1,5 @@
+python3 /usr/share/java-utils/pom_editor.py pom_remove_plugin :maven-assembly-plugin
+python3 /usr/share/java-utils/mvn_alias.py :{*} :@1-core :@1-bean-collections
+python3 /usr/share/java-utils/mvn_alias.py :{*} org.apache.commons:@1 org.apache.commons:@1-core org.apache.commons:@1-bean-collections
+python3 /usr/share/java-utils/mvn_file.py : apache-commons-beanutils apache-commons-beanutils-core apache-commons-beanutils-bean-collections
+python3 /usr/share/java-utils/mvn_file.py : commons-beanutils commons-beanutils-core commons-beanutils-bean-collections
