@@ -6,7 +6,7 @@
 #
 Name     : jdk-commons-beanutils
 Version  : 1.9.2
-Release  : 3
+Release  : 4
 URL      : http://archive.apache.org/dist/commons/beanutils/source/commons-beanutils-1.9.2-src.tar.gz
 Source0  : http://archive.apache.org/dist/commons/beanutils/source/commons-beanutils-1.9.2-src.tar.gz
 Source99 : http://archive.apache.org/dist/commons/beanutils/source/commons-beanutils-1.9.2-src.tar.gz.asc
@@ -49,6 +49,7 @@ BuildRequires : jdk-enforcer
 BuildRequires : jdk-felix
 BuildRequires : jdk-felix-bundlerepository
 BuildRequires : jdk-felix-framework
+BuildRequires : jdk-felix-osgi-core
 BuildRequires : jdk-felix-osgi-foundation
 BuildRequires : jdk-felix-utils
 BuildRequires : jdk-glassfish-servlet-api
@@ -84,7 +85,6 @@ BuildRequires : jdk-maven-shared-utils
 BuildRequires : jdk-objectweb-asm
 BuildRequires : jdk-objenesis
 BuildRequires : jdk-osgi-compendium
-BuildRequires : jdk-osgi-core
 BuildRequires : jdk-plexus-archiver
 BuildRequires : jdk-plexus-build-api
 BuildRequires : jdk-plexus-cipher

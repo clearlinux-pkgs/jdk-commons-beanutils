@@ -9,6 +9,7 @@ jdk-commons-parent
 jdk-easymock3
 jdk-enforcer
 jdk-felix
+jdk-felix-osgi-core
 jdk-jna
 jdk-maven-antrun-plugin
 jdk-maven-bundle-plugin
